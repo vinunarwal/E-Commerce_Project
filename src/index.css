@@ -152,11 +152,11 @@ code {
   /* 150% */
 }
 
-#cart{
+#cart {
   padding-top: 5px;
 }
 
-.icon-cart{
+.icon-cart {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -218,4 +218,169 @@ code {
   font-weight: 500;
   line-height: 18px;
   /* 150% */
+}
+
+
+
+
+
+
+
+/* Conatct  */
+/* New page */
+
+.home {
+  margin: 80px 1175px 80px 135px;
+}
+
+
+.content_contact_ {
+  margin: 80px 135px 140px 135px;
+}
+
+.col_lg_4 {
+  padding: 40px 35px 51px 35px;
+
+  display: inline-flex;
+  padding: 40px 35px 51px 35px;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 4px;
+  background: var(--Primary, #FFF);
+
+  /* Categogy/5 */
+  box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+
+  width: 340px;
+  height: 457px;
+
+}
+
+.col_lg_4 h6 {
+  color: var(--Text2, #000);
+
+  /* Title/14PX Regular */
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  /* 150% */
+
+}
+
+.imgg_ {
+  padding-bottom: 15px;
+}
+
+
+.call_ h6:nth-child(2) {
+  padding-top: 10px;
+  padding-bottom: 28px;
+}
+
+.write_to_us {
+  padding-top: 28px;
+}
+
+.write h6:nth-child(2) {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.imgg_ span {
+
+  padding-left: 16px;
+  color: #000;
+
+  /* Title/16PX Medium */
+  font-family: Poppins;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 150% */
+}
+
+.row_ {
+  display: flex;
+}
+
+.col_lg_8 {
+  width: 800px;
+  height: 457px;
+
+  margin-left: 30px;
+
+  padding: 40px 32px 40px 31px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 4px;
+  background: var(--Primary, #FFF);
+
+  /* Categogy/5 */
+  box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+}
+
+
+.name_email_phone {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name_email_phone input {
+  width: 235px;
+  height: 50px;
+  flex-shrink: 0;
+
+  border-radius: 4px;
+  background: var(--Secondary, #F5F5F5);
+  border-style: none;
+}
+
+.message_ {
+  padding: 32px 0px;
+}
+
+.message_ input {
+  /* width: 737px;
+  height: 207px;
+  flex-shrink: 0; */
+  padding-top: 10px;
+  padding-right: 554px;
+  padding-bottom: 178px;
+
+  border-radius: 4px;
+  background: var(--Secondary, #F5F5F5);
+
+  border-style: none;
+}
+
+
+.send_btn {
+  float: inline-end;
+}
+
+.send_btn button {
+  display: flex;
+  padding: 16px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 4px;
+  background: var(--Button2, #DB4444);
+
+  border-style: none;
+
+  color: var(--Text, #FAFAFA);
+
+  /* Title/16PX Medium */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
 }
