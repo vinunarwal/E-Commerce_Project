@@ -654,13 +654,14 @@ height: 284px;
 .Fother_all{
     line-height: 40px;
 }
-.Fother_2 h3{
+.Fother_all h3{
     /* line-height: normal; */
+    font-size: 16px;
 }
 .Fother_1_input{
 /* background-color: white; */
 display: flex;
-width: 200px;
+width: 230px;
 height: 44px;
 border:1.5px solid #FAFAFA;
 
