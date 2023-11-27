@@ -1,16 +1,33 @@
-import Navbar from'./components/Navbar';
-import Wishlist from './components/wishlist';
-// import Contact from './components/contact';
+import logo from './logo.svg';
+// import './App.css';
+import Navbar from '../src/F_Website/Navbar';
+import First_page from './F_Website/First_page';
+import Second_page from './F_Website/Second_page';
+import Fourth_page from '../src/F_Website/Fourth_page';
+import Fother from './F_Website/Fother';
+
+import Sixth_page from '../src/F_Website/Sixth_page'
+import Sevnth_page from './F_Website/Sevnth_page';
+
+import Eight_page from './F_Website/Eight_page';
+import Fifth_page from './F_Website/Fifth_page';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Navbar/>
-        <Wishlist/>
+    <>
+<Navbar/>
+ <First_page/>
+<Second_page/>
+<Fourth_page/>
+<Fifth_page/>
+<Sixth_page/>
+<Sevnth_page/>
+<Eight_page/>
+<Fother/>  
+</>
 
-      </header>
-    </div>
   );
 }
 
