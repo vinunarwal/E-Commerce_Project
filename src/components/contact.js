@@ -61,7 +61,7 @@ function contact() {
                             </div>
 
                             <div className='send_btn'>
-                                <button>Send Massage</button>
+                                <button>Send Message</button>
                             </div>
 
                         </div>

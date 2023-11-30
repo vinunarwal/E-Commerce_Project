@@ -384,3 +384,318 @@ code {
   font-weight: 500;
   line-height: 24px;
 }
+
+
+
+
+
+
+
+/* Page 3 */
+/* Checkout */
+
+/* Heading */
+
+.checkout_head {
+  margin: 80px 0px 80px 135px;
+}
+
+.checkout_head label span {
+  color: var(--Text2, #000);
+
+  /* Title/14PX Regular */
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  /* 150% */
+
+  opacity: 0.5;
+}
+
+.Billing_detail {
+  margin: 0 0 48px 135px;
+}
+
+
+.Billing_detail h1 {
+  color: var(--Text2, #000);
+
+  /* Heading/36PX Medium */
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  /* 83.333% */
+  letter-spacing: 1.44px;
+}
+
+.detail {
+  padding-bottom: 32px;
+}
+
+.detail label {
+  padding-bottom: 8px;
+
+  color: var(--Text2, #000);
+
+  /* Title/16PX Regular */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+
+  opacity: 0.4;
+}
+
+.detail input {
+  height: 40px;
+  border: none;
+  width: 80%;
+  padding: 0px 10px;
+  outline: none;
+
+  border-radius: 4px;
+  background: var(--Secondary, #F5F5F5);
+
+  width: 470px;
+  height: 50px;
+
+  display: flex;
+
+}
+
+.details_section span {
+  opacity: 0.9;
+  color: var(--Secondary-2, #DB4444);
+
+  /* Title/16PX Regular */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.detail_email label {
+  padding-bottom: 8px;
+
+  color: var(--Text2, #000);
+
+  /* Title/16PX Regular */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+
+  opacity: 0.4;
+}
+
+.detail_email input {
+  height: 40px;
+  border: none;
+  width: 80%;
+  padding: 0px 10px;
+  outline: none;
+
+  border-radius: 4px;
+  background: var(--Secondary, #F5F5F5);
+
+  width: 470px;
+  height: 50px;
+
+  display: flex;
+}
+
+.context__box_ {
+  margin: 48px 135px 140px 135px;
+}
+
+.save_info {
+  padding-top: 24px;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.save_info input{
+  height: 24px;
+  width: 24px;
+}
+
+.information h6{
+  color: #000;
+
+/* Title/16PX Regular */
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+
+/* payment page */
+
+.items_list {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+
+  margin-top: 25px;
+
+}
+
+.products__ {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 32px;
+}
+
+.first_product {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+}
+
+.products__ label {
+  padding-right: 185px;
+}
+
+.mrp_products_ label {
+  padding-right: 308px;
+}
+
+.total_price label {
+  padding-right: 335px;
+}
+
+.second_project {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.context__box_ {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price_list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.mrp_product label {
+  padding-right: 307px;
+}
+
+.bank_cards {
+  display: flex;
+  align-items: center;
+  gap: 170px;
+}
+
+.card_btn label {
+  padding-left: 16px;
+}
+
+.card_btn{
+  display: inline-flex;
+}
+
+.card_btn input {
+  height: 24px;
+  width: 24px;
+  border-radius: 100%;
+  align-items: center;
+}
+
+.cards_img {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.promo_code {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+}
+
+
+.input_text {
+  border-radius: 4px;
+  border: 1px solid #000;
+}
+
+.input_text input {
+  display: flex;
+  padding: 16px 85px 16px 24px;
+  align-items: center;
+
+  color: var(--Text2, #000);
+
+  /* Title/16PX Regular */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  /* 150% */
+
+  opacity: 0.5;
+}
+
+.promo_btn button {
+  display: flex;
+  padding: 16px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 4px;
+  background: var(--Button2, #DB4444);
+  border-style: none;
+
+  color: var(--Text, #FAFAFA);
+
+  /* Title/16PX Medium */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 150% */
+}
+
+.place_order_btn button {
+  display: flex;
+  padding: 16px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 4px;
+  background: var(--Button2, #DB4444);
+  border-style: none;
+
+  color: var(--Text, #FAFAFA);
+
+  /* Title/16PX Medium */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 150% */
+}
