@@ -1,7 +1,8 @@
 import React from 'react';
 import '../MYcss/Style.css';
+import '../MYcss/Responsive.css';
 import { Link } from 'react-router-dom'
-import Image1 from '../Picture/Component 2.png'
+import Image1 from '../Picture/Search.png'
 import Image2 from '../Picture/Cart1.png'
 import Image3 from '../Picture/Vector.png'
 

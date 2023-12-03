@@ -59,7 +59,7 @@ background-color:#F5F5F5;
 }
 .Navbar_Search_1 input{
     width: 243px;
-    height: 38px;
+    height: px;
     background-color:#F5F5F5;
     outline: none;
     border: none;
@@ -67,15 +67,16 @@ background-color:#F5F5F5;
 
 }
 .Navbar_Search_1 input::placeholder{
-    margin-left:40px;
+    /* margin-left:40px; */
+    /* padding: 10px; */
     color:#000;
     opacity: 50%;
 
 }
 
 .Navbar_Search_1 img{
-    width: 35px;
-    height: 38px;
+    width: 24px;
+    height: 24px;
     margin-right: 15px;
 }
 
@@ -147,6 +148,13 @@ line-height: 39px;
     margin-left: 97px;
 }
 
+.First_page_Right{
+
+}
+.First_page_Right img{
+    Width:892px;
+Height:344px;
+}
 /* -------------------------------------------------first pagee end----------------------------- */
 
 .Third_page{
@@ -157,6 +165,7 @@ line-height: 39px;
     .Third_page_1{
         display: flex;
         /* justify-content: space-between; */
+        /* gap: 20px ; */
     }
     .Third_page_1 img{
         width:20px ;
@@ -172,7 +181,9 @@ line-height: 39px;
     }
     .Third_page_2{
         display: flex;
-        justify-content: space-between;
+        gap: 160px;
+        flex-wrap: wrap;
+        justify-content: start;
     }
     
     .Third_page_h1{
@@ -218,6 +229,9 @@ line-height: 39px;
         gap: 10px;
         margin-top: 10px;
     }
+    .Third_page_row3{
+
+    }
     /* .Third_page_3 img:first-child{
         width: 21px;
         height: 21px;
@@ -242,9 +256,12 @@ line-height: 39px;
     
     }
     
-    .Third_page_row3{
-        display: flex;
-        justify-content: space-between;
+    .Third_page_row{
+        display:flex;
+    
+        gap: 60px;
+        flex-wrap: wrap;
+        justify-content: center;
         margin: 40px 0px;
     }
     .Third_page_row3_img_text{
@@ -353,7 +370,9 @@ height: 46px;
 
 .Fourth_page_3{
     display: flex;
-    justify-content: space-between;
+    gap: 48px;
+    flex-wrap: wrap;
+    justify-content: center;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -444,6 +463,7 @@ text-decoration:line-through;
 .Sixth_page{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     background-color: #000;
     margin: 0px 40px;
     padding:60px 0 ;
@@ -517,11 +537,11 @@ margin: 50px 40px;
 .Sevnth_page_2{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    
     padding: 20px 0;
 }
-.Sevnth_page_2 {
 
-}
 .Sevnth_page_2 h1{
     font-size: 36px;
     font-weight: 600;
@@ -635,7 +655,9 @@ height: 284px;
 
 .Fother{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 90px;
     background-color: #000;
     padding: 100px 40px;
     color: #fff;
@@ -647,13 +669,11 @@ height: 284px;
     font-weight: 700;
 }
 .Fother_h3  {
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 500;
 }
 
-.Fother_all{
-    line-height: 40px;
-}
+
 .Fother_all h3{
     /* line-height: normal; */
     font-size: 16px;
@@ -692,9 +712,11 @@ font-size: 12px;
 font-weight: 500;
 color:#FAFAFA;
 /* font-family: Poppins; */
+margin-bottom: 0rem;
 }
 .Qr_stores{
     display: flex;
+
     
 }
 .Qr img{
@@ -708,6 +730,7 @@ color:#FAFAFA;
     display: block;
 
 }
+
 
 
 .stores img:first-child{
@@ -725,4 +748,10 @@ color:#FAFAFA;
 }
 
 
+.Fother_all{
+    line-height: 40px;
+}
 
+.Fother_1{
+    line-height: 50px;
+}

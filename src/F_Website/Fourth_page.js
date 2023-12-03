@@ -1,17 +1,14 @@
 import React from 'react'
-import {ProductData} from '../Short_Components/First_Comp';
+import {ProductData} from '../Short_Components/Fouthpage1';
 import Rectangle from '../Picture/Rectangle.png'; 
-import Phones from '../Picture/Phones.png';
-import Computer from '../Picture/Computer.png'
-import SmartWatch from '../Picture/SmartWatch.png'
-import Camera from '../Picture/Camera.png';
-import HeadPhones from'../Picture/HeadPhones.png';
-import Gaming from '../Picture/Gaming.png';
+
 import left_Arrow from '../Picture/Left Arrow.png';
 import Right_Arrow from '../Picture/Right Arrow.png'
+import { Electronic } from '../Short_Components/Fourthpage2';
+
 
 const Fourth_page=()=>{
-    console.log(ProductData)
+    
   return (
     <>
     <div className='Fourth_page'>{
@@ -42,13 +39,17 @@ const Fourth_page=()=>{
          })
          
     }
-       <div className='Fourth_page_3'>
-        <img src={Phones} />          
-        <img src={Computer} />          
-        <img src={SmartWatch} />          
-        <img src={Camera} />
-        <img src={HeadPhones} />          
-        <img src={Gaming} />          
+       <div className='Fourth_page_3'>{
+         Electronic.map((product,index)=>{
+          return(
+           <div key={index}>
+             <img src={product.img}/>
+           </div>
+        
+            )
+         })
+        
+       }         
          </div>
                
     </div>
