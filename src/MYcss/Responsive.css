@@ -13,8 +13,9 @@
     }
     
     .First_page_Right img{
-        Width:801px;
-    Height:344px;
+     
+        width: 100%;
+    height: 100%;
     }
 
 
@@ -63,6 +64,7 @@
  .Sixth_page{
     margin: 0 10px; 
     /* display: flex; */
+    justify-content: center;
     gap: 40px;
  }
 
@@ -74,8 +76,18 @@
 
 
 
+    /* ---------------sixthpage end------------- */
+     .Sevnth_page{
+        margin: 50px 10px;
+     }
 
 
+
+/* -------------eight-page--------- */
+
+.Eight_page_2{
+    margin: 0 10px;
+}
 
 
 
@@ -87,6 +99,21 @@
     display: flex;
     justify-content: flex-start;
  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:430px){
 
 
 }
