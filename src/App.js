@@ -1,6 +1,6 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 // import './App.css';
-import Navbar from '../src/F_Website/Navbar';
+// import Navbar from '../src/F_Website/Navbar';
 import First_page from './F_Website/First_page';
 import Second_page from './F_Website/Second_page';
 import Fourth_page from '../src/F_Website/Fourth_page';

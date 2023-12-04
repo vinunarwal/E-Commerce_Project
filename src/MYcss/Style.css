@@ -10,7 +10,6 @@
     justify-content: space-between;
     margin-left: 40px;
     margin-bottom: 30px;
-    /* margin-top: 40px; */
 }
 
 .Navbar_logo{
@@ -52,7 +51,6 @@ margin-top: 30px;
 .Navbar_Search_1{
 display: flex;
 margin-right:20px;
-/* border: 1px solid black; */
 border-radius: 4px;
 background-color:#F5F5F5;
 
@@ -67,8 +65,6 @@ background-color:#F5F5F5;
 
 }
 .Navbar_Search_1 input::placeholder{
-    /* margin-left:40px; */
-    /* padding: 10px; */
     color:#000;
     opacity: 50%;
 
@@ -103,10 +99,6 @@ gap: 15px;
 
 
 /*---------------------------- Navbar end --------------------------------------------------------*/
-
-
-
-
 
 
 .First_page{
@@ -380,18 +372,9 @@ outline: none;
     color: #000;
     font-weight: 600;
     word-spacing: 4px;
-    font-family: ;
 }
 
 
-/* .Fourth_pagee_2_img{
-    display: flex;
-    gap: 7px;
-    /* justify-content: center; */
-  /* flex-wrap: wrap; */
-  /* align-content: center; */
-
-/* } */ */
 .Fourth_pagee_2_img{
 
 }
@@ -718,28 +701,6 @@ height: 284px;
     gap: 30px;
     padding-top: 26px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ----------------------fother start-------------- */
