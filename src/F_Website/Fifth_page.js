@@ -21,11 +21,12 @@ function Fifth_page() {
    Products_Data.map((product,Data)=>{
     return (
       <div key={Data} className='fifth_page_3_Img_text'>
-        <div className=''>
+        <div className='fifth_page_3_Img'>
         <img src={product.Img} />
+       
         </div>
     
-
+        <button>{product.button}</button>
       <h3>{product.name}</h3>
       <div className='fifth_page_3_prize'>
         <h4>{product.prize} <span>{product.prize2}</span></h4>

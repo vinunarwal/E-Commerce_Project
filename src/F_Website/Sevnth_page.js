@@ -17,8 +17,7 @@ function Sevnth_page() {
       <h1>Explore Our Products </h1>
 
         <div className='Sevnth_page_2_imgs' >
-          <img src={Left_Arrow} />
-          <img src={Right_Arrow} />
+          <button>View All</button>
 
         </div>
      
@@ -34,8 +33,13 @@ function Sevnth_page() {
           <div className='Sevnth_page_3_img_text_all' >
 
           <div key={index} className='Sevnth_page_3_img_text'>
+
+            <div className='Sevnth_page_3_imgss'>
+            <img src={product.img} />
+            </div>
+            <button>Buy Now</button>
              <div className='Sevnth_page_3_img'>
-              <img src={product.img} />
+              
               <h3>{product.name}</h3>
                
              </div>

@@ -182,7 +182,7 @@ Height:344px;
     }
     .Third_page_2{
         display: flex;
-        gap: 160px;
+        gap: 140px;
         flex-wrap: wrap;
         justify-content: start;
     }
@@ -270,10 +270,30 @@ Height:344px;
     .Third_page_row3_img_text{
     
     }
-    .Third_page_row3_img_text img:first-child{
-        width: 270px;
-        height: 250px;
+
+    .Third_page_row3_img{
+   width: 270px ;
+   height: 250px;
+   padding: 28px 38px;
+   background: 
+        #F5F5F5;
     }
+    
+    .Third_page_row3_img img{
+        width: 190px;
+  height: 180px;
+    }
+   
+    .Third_page_row3_img_text button{
+padding: 5px 103px;
+color: #fff;
+background-color: #000;
+border:none;
+border-radius: 0px 0px 4px 4px;
+outline: none;
+
+    }
+    
     .Third_page_row3_img_text h1{
         font-size: 16px;
         font-weight: 500;
@@ -309,6 +329,8 @@ font-size: 16px;
 color: #fff;
 font-weight: 500;
 border-radius: 4px;
+border: none;
+outline: none;
     }
 
 
@@ -340,10 +362,10 @@ border-radius: 4px;
     height: 40px;
 }
 .Fourth_page_1 h4{
-    font-size: 17px;
+    font-size: 16px;
     color:  #DB4444;
     font-weight: 600;
-    padding: 4px 10px;
+    padding: 10px 3px;
 }
 
 .fourth_page_2{
@@ -362,14 +384,26 @@ border-radius: 4px;
 }
 
 
-.Fourth_pagee_2_img{
+/* .Fourth_pagee_2_img{
     display: flex;
     gap: 7px;
+    /* justify-content: center; */
+  /* flex-wrap: wrap; */
+  /* align-content: center; */
+
+/* } */ */
+.Fourth_pagee_2_img{
 
 }
-.Fourth_pagee_2_img img{
-width: 46px;
-height: 46px;
+.Fourth_pagee_2_img button{
+    padding: 16px 48px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    color: #FAFAFA;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #DB4444;
 
 }
 
@@ -425,13 +459,29 @@ line-height: 24px;
 .fifth_page_3_Img_text{
  /* display: flex;    */
 }
+.fifth_page_3_Img_text button{
+    padding: 5px 103px;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: 0px 0px 4px 4px;
+  outline: none;
+}
 .fifth_page_3_Img{
     width: 270px;
     height: 250px;
 }
-.fifth_page_3_prize{
-
+.fifth_page_3_Img{
+    width: 270px;
+    height: 250px;
+    padding: 28px 38px;
+    background: #F5F5F5;
 }
+.fifth_page_3_Img img{
+    width: 190px;
+    height: 180px;
+}
+
 .fifth_page_3_prize h4 {
 font-size: 16px;
 font-weight: 600;
@@ -517,6 +567,7 @@ padding-right: 50px;
 .Speaker img{
     width:568px;
     height: 330px;
+    
 }
 
 
@@ -530,7 +581,7 @@ margin: 50px 40px;
 
 }
 .Sevnth_page_1 img{
-
+width: 20px 40px;
 }
 .Sevnth_page_1 h3{
     font-size: 16px;
@@ -555,11 +606,17 @@ margin: 50px 40px;
 }
 .Sevnth_page_2_imgs{
 display: flex;
-gap: 5px;
+/* gap: 5px; */
 }
-.Sevnth_page_2_imgs img{
-width: 46px;
-height: 46px;
+.Sevnth_page_2_imgs button{
+    padding: 16px 48px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    color: #FAFAFA;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #DB4444;
 }
 
 
@@ -588,6 +645,7 @@ gap: 8px;
 .Sevnth_page_3_text h4{
     color: #DB4444;
 }
+
 .Sevnth_page_3_text img{
     width: 140px;
     height: 20px;
@@ -609,6 +667,28 @@ gap: 10px;
 font-size: 16px;
 font-weight: 500;
 }
+
+
+.Sevnth_page_3_imgss{
+    width: 270px;
+    height: 250px;
+    padding: 28px 38px;
+    background: #F5F5F5;
+}
+.Sevnth_page_3_imgss img{
+    width: 190px;
+    height: 180px;
+}
+
+.Sevnth_page_3_img_text button{
+    padding: 5px 103px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 0px 0px 4px 4px;
+    outline: none;
+}
+
 
 
 
@@ -765,3 +845,79 @@ margin-bottom: 0rem;
 .Fother_1{
     line-height: 50px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------Services----------- */
+
+.services {
+    padding-top: 100px;
+    padding-bottom: auto;
+  }
+  
+  .services h3 {
+    color: 'black';
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: '900';
+    line-height: 28px;
+    word-wrap: 'break-word'
+  }
+  
+  .services p {
+    color: 'black';
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: '400';
+    line-height: 21px;
+    word-wrap: 'break-word'
+  }
+  
+  .delivery {
+    width: 294px;
+    height: 161px;
+  }
+  
+  .customer_service {
+    width: 270px;
+    height: 161px;
+  }
+  
+  .guarantee {
+    width: 288px;
+    height: 161px;
+  }
+  
+  .services_bg_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .delivery_icon {
+    position: absolute;
+    top: 22px;
+    left: 115px;
+  }
+  
+  .customer_service_icon {
+    position: absolute;
+    top: 19px;
+    left: 102px;
+  }
+  
+  .guarantee_icon {
+    position: absolute;
+    top: 20px;
+    left: 112px;
+  }

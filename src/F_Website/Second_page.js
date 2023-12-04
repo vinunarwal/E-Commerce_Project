@@ -54,15 +54,9 @@ function Second_page() {
 
           </div>
 
-          <div className='Third_page_3'>
-
-
-          <img className='Third_page_3_img1' src={left_icon}/>
-        
-         <img className='Third_page_3_img3' src={right_icon}/>
-       
-            
-          </div>
+          <div className='fifth_page_button' >    
+      <button>View All</button>
+        </div>
 
 
 
@@ -77,7 +71,11 @@ function Second_page() {
 
 
             <div className='Third_page_row3_img_text'>
+              <div className='Third_page_row3_img'>
               <img src={product.img} />
+              </div>
+              <button>{product.button}</button> 
+           
             <h1>{product.name}</h1>
             <h2>{product.prize} <span>{product.prize2}</span></h2>
             <img className='frame_star' src={product.img2} />
