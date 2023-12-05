@@ -6,7 +6,7 @@ function contact() {
     return (
         <div className='contact'>
             <div className='home'>
-                <label><span>Home /</span> Contact</label>
+                <label>Home / </label><span> Contact</span>
             </div>
 
             <div className='content_contact_'>

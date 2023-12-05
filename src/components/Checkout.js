@@ -113,7 +113,7 @@ function Checkout() {
 
                         <div className='bank_cards'>
                             <div className='card_btn'>
-                                <input type='radio' name='bill'/>
+                                <input type='radio' name='bill' />
                                 <label>Bank</label>
                             </div>
                             <div className='cards_img'>
@@ -126,7 +126,7 @@ function Checkout() {
 
                         <div className='cash_on_delivery'>
                             <div className='card_btn'>
-                                <input type='radio' name='bill'/><label>Cash on delivery</label>
+                                <input type='radio' name='bill' /><label>Cash on delivery</label>
                             </div>
                         </div>
 
