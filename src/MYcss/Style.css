@@ -129,7 +129,7 @@ padding: 0px 22px;
 
 /* .First_page{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
  
     margin:40px
 } */
@@ -734,6 +734,7 @@ height: 284px;
 }
 .Eight_page_right_bottom{
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     padding-top: 26px;
 }

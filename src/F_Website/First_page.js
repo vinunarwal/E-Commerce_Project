@@ -31,7 +31,7 @@ function First_page() {
 
 
         <div className='First_page_Right'> 
-              <img src={Image2} />
+              <img style={{marginLeft: "auto", marginRight:"auto"}} src={Image2} />
         </div>
 
     </div>
