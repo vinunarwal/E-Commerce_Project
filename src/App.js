@@ -18,7 +18,7 @@ import Tenth_page from './F_Website/Tenth_page'
 function App() {
   return (
     <>
-<Navbar/>
+{/* <Navbar/> */}
  <First_page/>
 <Second_page/>
 <Fourth_page/>

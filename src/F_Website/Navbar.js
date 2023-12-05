@@ -41,7 +41,7 @@ function Navbar() {
                
        </div>
 
-
+{/* 
        <div id='mobile'>
 
         <div className='Mobile_icon'>
@@ -57,9 +57,9 @@ function Navbar() {
             <li><a href='#' >About</a></li>
             <li><a href='#' >Sign Up</a></li>
          </ul>
-       </div>
+       </div> */}
 
-       </div>
+       {/* </div> */}
 
 
     </div>
