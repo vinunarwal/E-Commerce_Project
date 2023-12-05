@@ -11,13 +11,14 @@ import Sevnth_page from './F_Website/Sevnth_page';
 
 import Eight_page from './F_Website/Eight_page';
 import Fifth_page from './F_Website/Fifth_page';
+import Tenth_page from './F_Website/Tenth_page'
 
 
 
 function App() {
   return (
     <>
-{/* <Navbar/> */}
+<Navbar/>
  <First_page/>
 <Second_page/>
 <Fourth_page/>
@@ -25,6 +26,7 @@ function App() {
 <Sixth_page/>
 <Sevnth_page/>
 <Eight_page/>
+<Tenth_page/>
 <Fother/>  
 </>
 
