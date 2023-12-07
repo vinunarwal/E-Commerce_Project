@@ -12,7 +12,7 @@ import Sevnth_page from './F_Website/Sevnth_page';
 import Eight_page from './F_Website/Eight_page';
 import Fifth_page from './F_Website/Fifth_page';
 import Tenth_page from './F_Website/Tenth_page'
-
+import '../src/MYcss/Responsive.css';
 
 
 function App() {
