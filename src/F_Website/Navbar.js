@@ -6,7 +6,25 @@ import Image1 from '../Picture/Searchbar.png'
 import Image2 from '../Picture/likeeee.png'
 import Image3 from '../Picture/Cartaaaa.png'
 import Image4 from '../Picture/menu.png'
+
 function Navbar() {
+
+  let flag=0;
+function click(){
+
+if(flag==0){
+  document.querySelector('.Navmenu').style.opacity="1";
+ 
+  flag=1;
+}
+else{
+  // flag==0;
+document.querySelector('.Navmenu').style.opacity="0";
+  flag=0;
+}
+}
+      
+
   return (
     <div className='Navbar'>
 
@@ -16,8 +34,8 @@ function Navbar() {
 
        <div className='Navmenu'>
          <ul>
-            <li><a  href='#' >Home</a></li>
-            <li><a href='#' >Contant</a></li>
+            <li><a  href=''>Home</a></li>
+            <li><a href='contact'>Contant</a></li>
             <li><a href='#' >About</a></li>
             <li><a href='#' >Sign Up</a></li>
          </ul>
@@ -35,35 +53,24 @@ function Navbar() {
             
                 <img src={Image2} alt=''/>
                 <img src={Image3} alt=''/>
+                <div className='Mobile_icon'>
+        <img onClick={click}  src={Image4}/>
+        </div>
+
+             
+    
+        
                </div>
 
-
+              
                
        </div>
 
-{/* 
-       <div id='mobile'>
 
-        <div className='Mobile_icon'>
-        <img src={Image4}/>
-        </div>
-   
-
-
-      <div className='Navmenu_mobile'>
-         <ul>
-            <li><a  href='#' >Home</a></li>
-            <li><a href='#' >Contant</a></li>
-            <li><a href='#' >About</a></li>
-            <li><a href='#' >Sign Up</a></li>
-         </ul>
-       </div> */}
-
-       {/* </div> */}
 
 
     </div>
   )
 }
 
-export default Navbar
+export default Navbar;

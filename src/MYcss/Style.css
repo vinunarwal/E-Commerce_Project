@@ -113,6 +113,7 @@ padding: 0px 22px;
 }
 .Mobile_icon img{
     display: none;
+    /* position: absolute; */
 }
 .Navmenu_mobile{
     display: none;
