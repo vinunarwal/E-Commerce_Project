@@ -22,8 +22,8 @@ function Wishlist() {
                 </div>
 
                 {/* section1 */}
-                <div className='sec_2'>
-                <div className='row slider'>
+                <div className='sec'>
+                <div className='row slider_2'>
                     {productData.map((product) => {
                         return (
 

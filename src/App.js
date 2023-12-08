@@ -1,4 +1,5 @@
 //  import Navbar from'./components/Navbar';
+// import { useEffect, useState } from 'react';
 import Wishlist from './components/wishlist';
 // import Contact from './components/contact';
 // import Checkout from './components/Checkout'
@@ -11,9 +12,6 @@ function App() {
                 <Wishlist />
                 {/* <Contact /> */}
                 {/* <Checkout /> */}
-                
-
-
             </header>
         </div>
     );
