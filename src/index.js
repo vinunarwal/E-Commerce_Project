@@ -3,6 +3,25 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 // import reportWebVitals from './reportWebVitals';
+// import  '../src/Web.css'
+// import '../src/index_vinu.css';
+
+
+const router =createBrowserRouter(
+
+  createRoutesFromElements(
+    <Route path='/' element={<Layout/>}>
+
+  <Route path='/' element={<Home/>} />
+  <Route path='Home' element={<Home/>} /> 
+      {/* <Route path='contact' element={<Contact/>} />  */}
+      {/* <Route path='About' element={<About/>} />  */}
+    
+
+    </Route>
+  )
+)
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
