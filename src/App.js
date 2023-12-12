@@ -7,12 +7,13 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-                {/* <Wishlist /> */}
+                <Wishlist />
                 <Contact />
-                {/* <Checkout /> */}
+                <Checkout />
             </header>
         </div>
     );
+
 }
 
 export default App;
