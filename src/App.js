@@ -1,16 +1,14 @@
-//  import Navbar from'./components/Navbar';
 // import { useEffect, useState } from 'react';
-import Wishlist from './components/wishlist';
-// import Contact from './components/contact';
-// import Checkout from './components/Checkout'
+import Wishlist from './components/pages/wishlist';
+import Contact from './components/pages/contact';
+import Checkout from './components//pages/Checkout';
 
 function App() {
     return (
         <div className="App">
             <header className="App-header">
-                {/* <Navbar/> */}
-                <Wishlist />
-                {/* <Contact /> */}
+                {/* <Wishlist /> */}
+                <Contact />
                 {/* <Checkout /> */}
             </header>
         </div>

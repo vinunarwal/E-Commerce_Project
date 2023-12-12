@@ -1,11 +1,11 @@
-import bag from '../images/handbag.png';
-import speaker from '../images/speaker.png';
-import ps4 from '../images/ps4remote.png';
-import jacket from '../images/jacket.png';
-import laptop from '../images/laptop.png';
-import monitor from '../images/monitor.png';
-import remote from '../images/gameremote.png';
-import keyboard from '../images/keyboard.png';
+import bag from '../img/handbag.png';
+import speaker from '../img/speaker.png';
+import ps4 from '../img/ps4remote.png';
+import jacket from '../img/jacket.png';
+import laptop from '../img/laptop.png';
+import monitor from '../img/monitor.png';
+import remote from '../img/gameremote.png';
+import keyboard from '../img/keyboard.png';
 
 export const productData = [{
     name: "Gucci duffle bag",
