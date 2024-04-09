@@ -1,7 +1,3 @@
-
-// Navbar.js
-
-
 import React, { useState } from "react";
 import "../MYcss/Style.css";
 import "../MYcss/Responsive.css";
@@ -36,7 +32,7 @@ function Navbar() {
             <NavLink to="/Home">Home</NavLink>
           </li>
           <li>
-            <NavLink to="/Contact">Contant</NavLink>
+            <NavLink to="/Contact">Contact</NavLink>
           </li>
           <li>
             <NavLink to="/About">About</NavLink>
@@ -48,14 +44,6 @@ function Navbar() {
       </div>
 
       <div className="Navbar_Search">
-        {/* <div className={`Navbar_Search_1 ${searchBar ? "Search" : ""}`}>
-          <input
-            type="text"
-            placeholder="What are you looking for?"
-            style={{ display: searchBar ? "block" : "none" }}
-          />
-          <img src={Image1} alt="Image1" onClick={toggleSearchBar}  />
-        </div> */}
 
         <div className="Navbar_Search_2">
           <img src={Image2} alt=""   style={{ display: searchBar ? "none" : "block" }} />

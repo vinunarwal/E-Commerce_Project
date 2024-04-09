@@ -13,7 +13,6 @@ function Wishlist() {
         <div className='containerr'>
             <div className='content_box'>
 
-                {/* top line */}
                 <div className='headerr'>
                     <div className='text'>
                         <p>Wishlist (4)</p>
@@ -23,7 +22,6 @@ function Wishlist() {
                     </div>
                 </div>
 
-                {/* section1 */}
                 <div className='row'>
                     <div className='col-md-3'>
                         <div className='img-box-1'>
@@ -76,7 +74,6 @@ function Wishlist() {
                     </div>
                 </div>
 
-                {/* mid part */}
                 <div className='mid-part'>
                     <div className='text'>
                         <h5>Just For You</h5>
@@ -86,7 +83,6 @@ function Wishlist() {
                     </div>
                 </div>
 
-                {/* section 2 */}
                 <div className='row'>
                     <div className='col-md-3'>
                         <div className='img-box-1'>
